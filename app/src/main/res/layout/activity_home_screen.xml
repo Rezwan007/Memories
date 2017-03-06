@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.deviac.memories.Views.HomeScreenActivity">
+
+    <Button
+        android:id="@+id/btnNewMemory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Add Memory"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/new_memories_button_bg"
+        android:onClick="addMemory"/>
+
+    <Button
+        android:id="@+id/btnAllMemories"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="All Memories"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@drawable/all_memories_button_bg"
+        android:onClick="showMemory"/>
+
+</LinearLayout>

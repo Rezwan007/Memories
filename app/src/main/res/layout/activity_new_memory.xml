@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_memory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.deviac.memories.Views.NewMemoryActivity">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/addImageIV"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:src="@drawable/image_placeholder"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:onClick="addImage"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:id="@+id/addTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:hint="Title"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:id="@+id/addMessageTV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".75"
+            android:hint="Message"
+            android:gravity="top|left"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".30"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/btnSaveMemory"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".5"
+            android:text="Save Memory"
+            android:background="@color/btnColorPrimary"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@drawable/ic_save_memory"
+            android:onClick="addMemory"/>
+
+        <Button
+            android:id="@+id/btnDiscardMemory"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".5"
+            android:text="Discard"
+            android:background="#c2185b"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableRight="@drawable/ic_discard"
+            android:onClick="discard"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "888049923565",
+    "firebase_url": "https://memories-59878.firebaseio.com",
+    "project_id": "memories-59878",
+    "storage_bucket": "memories-59878.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888049923565:android:d3dc9457b859ece3",
+        "android_client_info": {
+          "package_name": "net.deviac.memories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888049923565-g1sv08led003mu7lf1h1r57kb5r8enfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.deviac.memories",
+            "certificate_hash": "bb69efe9cd4e53362a00e1aca138059b18f4e610"
+          }
+        },
+        {
+          "client_id": "888049923565-0edgfj1l86csp5d4opsv2s62kok55hdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC35XYbxZgoQ3W-VkdKPiym138f1bHCM94"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888049923565-0edgfj1l86csp5d4opsv2s62kok55hdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
